@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.text {
+  background: linear-gradient(90deg, red, blue, orange, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
